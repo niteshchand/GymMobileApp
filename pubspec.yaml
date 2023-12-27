@@ -19,11 +19,19 @@ dependencies:
   tflite: ^1.1.1
   font_awesome_flutter: ^8.10.0
   line_awesome_flutter: ^1.0.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon.png"
 
 flutter:
 

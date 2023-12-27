@@ -30,7 +30,7 @@ class MainScreen extends StatelessWidget {
             Container(
               padding: EdgeInsets.only(left: 16.0, right: 16.0),
               child: Text(
-                'AlignAI',
+                'Exercise',
                 style: TextStyle(
                   color: Color(0xFFFE7C7C),
                   fontWeight: FontWeight.bold,
@@ -84,10 +84,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -106,16 +106,16 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
                                 child: Image.asset('images/arm_press.PNG')),
-                            onPressed: () =>
-                                onSelectA(context: context, modelName: 'posenet'),
+                            onPressed: () => onSelectA(
+                                context: context, modelName: 'posenet'),
                           ),
                         ),
                       ],
@@ -127,10 +127,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -149,16 +149,16 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
                                 child: Image.asset('images/squat.PNG')),
-                            onPressed: () =>
-                                onSelectS(context: context, modelName: 'posenet'),
+                            onPressed: () => onSelectS(
+                                context: context, modelName: 'posenet'),
                           ),
                         ),
                       ],
@@ -170,10 +170,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                           style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -192,10 +192,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                           style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -237,10 +237,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                           style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -259,16 +259,16 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
                                 child: Image.asset('images/yoga4.PNG')),
-                            onPressed: () =>
-                                onSelectY(context: context, modelName: 'posenet'),
+                            onPressed: () => onSelectY(
+                                context: context, modelName: 'posenet'),
                           ),
                         ),
                       ],
@@ -280,10 +280,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                            style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -302,10 +302,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                           style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),
@@ -324,10 +324,10 @@ class MainScreen extends StatelessWidget {
                           height: 140,
                           padding: EdgeInsets.symmetric(horizontal: 10.0),
                           child: ElevatedButton(
-                           style:ElevatedButton.styleFrom(
+                            style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18.0)),
-                            primary: Colors.white,
+                                  borderRadius: BorderRadius.circular(18.0)),
+                              primary: Colors.white,
                             ),
                             child: Container(
                                 padding: EdgeInsets.all(10.0),

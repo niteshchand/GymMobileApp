@@ -4,8 +4,8 @@ import 'package:tflite/tflite.dart';
 import 'dart:math';
 
 import 'package:align_ai/services/camera.dart';
-import 'package:align_ai/services/render_data.dart';
-import 'package:align_ai/services/render_data_yoga.dart';
+// import 'package:align_ai/services/render_data.dart';
+// import 'package:align_ai/services/render_data_yoga.dart';
 import 'package:align_ai/services/render_data_arm_press.dart';
 
 class PushedPageA extends StatefulWidget {
